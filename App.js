@@ -10,6 +10,7 @@ import Pantalla1 from './src/screens/Pantalla1';
 import Pantalla2 from './src/screens/Pantalla2';
 import Ejercicio from './src/screens/Ejercicio';
 import Indicaciones from './src/screens/Indicaciones';
+import Pantalla3 from './src/screens/Pantalla3';
 
 export default function App() {
 
@@ -26,6 +27,7 @@ export default function App() {
         <Stack.Screen name="Pantalla2" component={Pantalla2} />
         <Stack.Screen name="Ejercicio" component={Ejercicio} />
         <Stack.Screen name="Indicaciones" component={Indicaciones} />
+        <Stack.Screen name="Pantalla3" component={Pantalla3} />
       </Stack.Navigator>
     </NavigationContainer>
   );

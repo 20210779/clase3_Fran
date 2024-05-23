@@ -17,6 +17,9 @@ const Pantalla2 = ({ navigation }) => {
     const irIndicaciones = () => {
         navigation.navigate('Indicaciones');
     };
+    const irPantalla3 = () => {
+        navigation.navigate('Pantalla3');
+    };
 
     const opciones =(opcion)=>{
         switch (opcion) {
@@ -31,6 +34,10 @@ const Pantalla2 = ({ navigation }) => {
               case 3:
                 // Código a ejecutar si opcion es igual a 2
                 navigation.navigate('Ejercicio');
+                break;
+                case 4:
+                // Código a ejecutar si opcion es igual a 2
+                navigation.navigate('Pantalla3');
                 break;
             // Puedes añadir más casos según sea necesario
             default:
@@ -64,6 +71,7 @@ const Pantalla2 = ({ navigation }) => {
                    { label: 'Regresar a Inicio', value: 1 },
                    { label: 'Trabajo en Clase', value: 2 },
                    { label: 'Perfil 3', value: 3 },
+                   { label: 'Menu de colores', value: 4 },
                  ]}
                 />
        </View>
